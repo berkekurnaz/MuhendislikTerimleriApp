@@ -1,0 +1,20 @@
+﻿@model IEnumerable<Terimler>
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_LayoutYonetim.cshtml";
+}
+
+<div class="container text-center">
+    <h2>Terimler Listesi</h2>
+    <hr />
+    <div class="card">
+        <ul class="list-group list-group-flush">
+            <li class="list-group-item"><a href="/YonetimTerimler/Bolumler?bolum=Bilgisayar"><i class="fa fa-search" aria-hidden="true"></i> Bilgisayar Bölümü Terimlerini Listele</a></li> <br />
+            <li class="list-group-item"><a href="/YonetimTerimler/Bolumler?bolum=Elektrik"><i class="fa fa-search" aria-hidden="true"></i> Elektrik Bölümü Terimlerini Listele</a></li> <br />
+            <li class="list-group-item"><a href="/YonetimTerimler/Bolumler?bolum=Endüstri"><i class="fa fa-search" aria-hidden="true"></i> Endüstri Bölümü Terimlerini Listele</a></li> <br />
+            <li class="list-group-item"><a href="/YonetimTerimler/Bolumler?bolum=Makine"><i class="fa fa-search" aria-hidden="true"></i> Makine Bölümü Terimlerini Listele</a></li> <br />
+            <li class="list-group-item"><a href="/YonetimTerimler/Bolumler?bolum=Kimya"><i class="fa fa-search" aria-hidden="true"></i> Kimya Bölümü Terimlerini Listele</a></li> <br />
+            <li class="list-group-item"><a href="/YonetimTerimler/Bolumler?bolum=İnşaat"><i class="fa fa-search" aria-hidden="true"></i> İnşaat Bölümü Terimlerini Listele</a></li>
+        </ul> 
+    </div>
+</div>

@@ -1,0 +1,43 @@
+﻿@model Oneriler
+@{
+    ViewData["Title"] = "Incele";
+    Layout = "~/Views/Shared/_LayoutYonetim.cshtml";
+}
+
+<div class="card">
+    <div class="card-heading border bottom">
+        <br />
+        <h4 class="card-title text-center">Terim Önerisi İncele</h4>
+    </div>
+    <div class="card-block">
+        <div class="row">
+            <div class="col-md-9 ml-auto mr-auto">
+                <form asp-controller="" asp-action="" method="post" enctype="multipart/form-data" class="form-horizontal mrg-top-40 pdd-right-30 ng-pristine ng-valid">
+                    <div class="form-group">
+                        <br />
+                        <label>Gönderen Ad Soyad</label>
+                        <input type="text" class="form-control" asp-for="AdSoyad" value="@Model.AdSoyad" readonly>
+                    </div><div class="form-group">
+                        <label>Gönderen Mail</label>
+                        <input type="text" class="form-control" asp-for="Mail" value="@Model.Mail" readonly>
+                    </div>
+                    <div class="form-group">
+                        <label>Terim Adı</label>
+                        <input type="text" class="form-control" asp-for="TerimAd" value="@Model.TerimAd" readonly>
+                    </div>
+                    <div class="form-group">
+                        <label>Terim Açıklaması</label>
+                        <textarea class="form-control" asp-for="TerimAciklama" rows="5" readonly>@Model.TerimAciklama</textarea>
+                    </div>
+                    <div class="form-group">
+                        <label>Terim Bölümü</label>
+                        <input type="text" class="form-control" asp-for="TerimBolum" value="@Model.TerimBolum" readonly>
+                    </div>
+                </form>
+                <center><a href="/YonetimOneriler/Index/" class="btn btn-primary"><i class="fa fa-plus" aria-hidden="true"></i> Geriye Dön</a></center><br />
+            </div>
+        </div>
+    </div>
+</div>
+
+

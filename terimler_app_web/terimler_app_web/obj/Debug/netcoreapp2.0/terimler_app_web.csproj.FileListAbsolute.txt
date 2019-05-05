@@ -1,0 +1,10 @@
+D:\YazilimProjeleri2019\TerimlerApp\terimler_app_web\terimler_app_web\bin\Debug\netcoreapp2.0\terimler_app_web.deps.json
+D:\YazilimProjeleri2019\TerimlerApp\terimler_app_web\terimler_app_web\bin\Debug\netcoreapp2.0\terimler_app_web.runtimeconfig.json
+D:\YazilimProjeleri2019\TerimlerApp\terimler_app_web\terimler_app_web\bin\Debug\netcoreapp2.0\terimler_app_web.runtimeconfig.dev.json
+D:\YazilimProjeleri2019\TerimlerApp\terimler_app_web\terimler_app_web\bin\Debug\netcoreapp2.0\terimler_app_web.dll
+D:\YazilimProjeleri2019\TerimlerApp\terimler_app_web\terimler_app_web\obj\Debug\netcoreapp2.0\terimler_app_web.csproj.CoreCompileInputs.cache
+D:\YazilimProjeleri2019\TerimlerApp\terimler_app_web\terimler_app_web\obj\Debug\netcoreapp2.0\terimler_app_web.AssemblyInfoInputs.cache
+D:\YazilimProjeleri2019\TerimlerApp\terimler_app_web\terimler_app_web\obj\Debug\netcoreapp2.0\terimler_app_web.AssemblyInfo.cs
+D:\YazilimProjeleri2019\TerimlerApp\terimler_app_web\terimler_app_web\bin\Debug\netcoreapp2.0\terimler_app_web.pdb
+D:\YazilimProjeleri2019\TerimlerApp\terimler_app_web\terimler_app_web\obj\Debug\netcoreapp2.0\terimler_app_web.dll
+D:\YazilimProjeleri2019\TerimlerApp\terimler_app_web\terimler_app_web\obj\Debug\netcoreapp2.0\terimler_app_web.pdb

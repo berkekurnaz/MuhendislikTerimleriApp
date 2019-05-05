@@ -1,0 +1,41 @@
+﻿@model Terimler
+@{
+    ViewData["Title"] = "Ekle";
+    Layout = "~/Views/Shared/_LayoutYonetim.cshtml";
+}
+
+<div class="card">
+    <div class="card-heading border bottom">
+        <br />
+        <h4 class="card-title text-center">Yeni Terim Ekle</h4>
+    </div>
+    <div class="card-block">
+        <div class="row">
+            <div class="col-md-9 ml-auto mr-auto">
+                <form asp-controller="YonetimTerimler" asp-action="Ekle" method="post" enctype="multipart/form-data" class="form-horizontal mrg-top-40 pdd-right-30 ng-pristine ng-valid">
+                    <div class="form-group">
+                        <br />
+                        <label>Terim Adı</label>
+                        <input type="text" class="form-control" asp-for="TerimAd" placeholder="Terim Adını Giriniz..." required>
+                    </div>
+                    <div class="form-group">
+                        <label>Terim Açıklaması</label>              
+                        <textarea class="form-control" asp-for="TerimAciklama" placeholder="Terim Açıklamasını Giriniz..." rows="5" required></textarea>
+                    </div>
+                    <div class="form-group">
+                        <label>Terim Bölümü</label>
+                        <select class="form-control" asp-for="TerimBolum">
+                            <option>Bilgisayar</option>
+                            <option>Elektrik</option>
+                            <option>Endüstri</option>
+                            <option>Makine</option>
+                            <option>Kimya</option>
+                        </select>
+                    </div>
+                    <center><button type="submit" class="btn btn-info"><i class="fa fa-plus" aria-hidden="true"></i> Yeni Terim Ekle</button></center><br />
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
