@@ -9,6 +9,11 @@ D:\YazilimProjeleri2019\TerimlerApp\terimler_app_web\terimler_app_web
 --file=D:\YazilimProjeleri2019\TerimlerApp\terimler_app_web\terimler_app_web\Views\KurYay\Nedir.cshtml
 --file=D:\YazilimProjeleri2019\TerimlerApp\terimler_app_web\terimler_app_web\Views\KurYay\Topluluk.cshtml
 --file=D:\YazilimProjeleri2019\TerimlerApp\terimler_app_web\terimler_app_web\Views\Shared\_LayoutYonetim.cshtml
+--file=D:\YazilimProjeleri2019\TerimlerApp\terimler_app_web\terimler_app_web\Views\YonetimDuyurular\Ekle.cshtml
+--file=D:\YazilimProjeleri2019\TerimlerApp\terimler_app_web\terimler_app_web\Views\YonetimDuyurular\Guncelle.cshtml
+--file=D:\YazilimProjeleri2019\TerimlerApp\terimler_app_web\terimler_app_web\Views\YonetimDuyurular\Incele.cshtml
+--file=D:\YazilimProjeleri2019\TerimlerApp\terimler_app_web\terimler_app_web\Views\YonetimDuyurular\Index.cshtml
+--file=D:\YazilimProjeleri2019\TerimlerApp\terimler_app_web\terimler_app_web\Views\YonetimDuyurular\Sil.cshtml
 --file=D:\YazilimProjeleri2019\TerimlerApp\terimler_app_web\terimler_app_web\Views\YonetimMesajlar\Incele.cshtml
 --file=D:\YazilimProjeleri2019\TerimlerApp\terimler_app_web\terimler_app_web\Views\YonetimMesajlar\Index.cshtml
 --file=D:\YazilimProjeleri2019\TerimlerApp\terimler_app_web\terimler_app_web\Views\YonetimMesajlar\Sil.cshtml

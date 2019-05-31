@@ -17,6 +17,7 @@ namespace terimler_app_web.Controllers.Site
         OnerilerOperations onerilerOperations = new OnerilerOperations("Oneriler");
         TerimlerOperations terimlerOperations = new TerimlerOperations("Terimler");
         YoneticilerOperations yoneticilerOperations = new YoneticilerOperations("Yoneticiler");
+        DuyurularOperations duyurularOperations = new DuyurularOperations("Duyurular");
 
         [AuthFilter]
         public IActionResult Index()
@@ -25,6 +26,7 @@ namespace terimler_app_web.Controllers.Site
             ViewBag.OneriSayisi = onerilerOperations.GetAll().Count;
             ViewBag.TerimSayisi = terimlerOperations.GetAll().Count;
             ViewBag.YoneticiSayisi = yoneticilerOperations.GetAll().Count;
+            ViewBag.DuyuruSayisi = duyurularOperations.GetAll().Count;
             return View();
         }
 

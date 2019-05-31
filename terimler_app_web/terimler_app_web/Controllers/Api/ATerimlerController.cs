@@ -17,6 +17,7 @@ namespace terimler_app_web.Controllers.Api
         TerimlerOperations terimlerOperations = new TerimlerOperations("Terimler");
 
         /* Bolumune Göre Terimleri Listeleme */
+        /*
         public IActionResult Get(string bolum)
         {
             var query = terimlerOperations.GetAllByCategoryName(bolum).OrderByDescending(x => x.Id);
@@ -25,6 +26,13 @@ namespace terimler_app_web.Controllers.Api
                 return NotFound();
             }
             return new ObjectResult(query);
+        }
+        */
+
+        public async Task<ActionResult> Get(string bolum)
+        {
+            var query = terimlerOperations.GetAllByCategoryName(bolum).OrderBy(x => x.TerimAd);
+            return Ok(query);
         }
 
         /* Id Degerine Göre Terim Getirme */

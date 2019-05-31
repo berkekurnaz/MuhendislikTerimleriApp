@@ -16,10 +16,10 @@
                     <div class="form-group">
                         <br />
                         <label>Terim Adı</label>
-                        <input type="text" class="form-control" asp-for="TerimAd" placeholder="Terim Adını Giriniz..." required>
+                        <input type="text" class="form-control kontrol" asp-for="TerimAd" placeholder="Terim Adını Giriniz..." required>
                     </div>
                     <div class="form-group">
-                        <label>Terim Açıklaması</label>              
+                        <label>Terim Açıklaması</label>
                         <textarea class="form-control" asp-for="TerimAciklama" placeholder="Terim Açıklamasını Giriniz..." rows="5" required></textarea>
                     </div>
                     <div class="form-group">
@@ -39,3 +39,9 @@
     </div>
 </div>
 
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script>
+    $(".kontrol").keyup(function () {
+        this.value = this.value.toLowerCase();
+    });
+</script>

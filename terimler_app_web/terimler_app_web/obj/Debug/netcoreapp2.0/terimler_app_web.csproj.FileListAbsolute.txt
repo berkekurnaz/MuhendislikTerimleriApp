@@ -8,3 +8,4 @@ D:\YazilimProjeleri2019\TerimlerApp\terimler_app_web\terimler_app_web\obj\Debug\
 D:\YazilimProjeleri2019\TerimlerApp\terimler_app_web\terimler_app_web\bin\Debug\netcoreapp2.0\terimler_app_web.pdb
 D:\YazilimProjeleri2019\TerimlerApp\terimler_app_web\terimler_app_web\obj\Debug\netcoreapp2.0\terimler_app_web.dll
 D:\YazilimProjeleri2019\TerimlerApp\terimler_app_web\terimler_app_web\obj\Debug\netcoreapp2.0\terimler_app_web.pdb
+D:\YazilimProjeleri2019\TerimlerApp\terimler_app_web\terimler_app_web\obj\Debug\netcoreapp2.0\terimler_app_web.csprojAssemblyReference.cache

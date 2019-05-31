@@ -1,0 +1,34 @@
+﻿@model Duyurular
+@{
+    ViewData["Title"] = "Incele";
+    Layout = "~/Views/Shared/_LayoutYonetim.cshtml";
+}
+
+<div class="card">
+    <div class="card-heading border bottom">
+        <br />
+        <h4 class="card-title text-center">Duyuru İncele</h4>
+    </div>
+    <div class="card-block">
+        <div class="row">
+            <div class="col-md-9 ml-auto mr-auto">
+                <form asp-controller="" asp-action="" method="post" enctype="multipart/form-data" class="form-horizontal mrg-top-40 pdd-right-30 ng-pristine ng-valid">
+                    <div class="form-group">
+                        <label>Eklenme Tarihi</label>
+                        <input type="text" class="form-control" asp-for="EklenmeTarihi" value="@Model.EklenmeTarihi" readonly>
+                    </div>
+                    <div class="form-group">
+                        <label>Duyuru Başlık</label>
+                        <input type="text" class="form-control" asp-for="Baslik" value="@Model.Baslik" readonly>
+                    </div>
+                    <div class="form-group">
+                        <label>Duyuru İçerik</label>
+                        <textarea class="form-control" asp-for="Icerik" rows="5" readonly>@Model.Icerik</textarea>
+                    </div>
+                </form>
+                <center><a href="/YonetimDuyurular/Index/" class="btn btn-primary"><i class="fa fa-plus" aria-hidden="true"></i> Geriye Dön</a></center><br />
+            </div>
+        </div>
+    </div>
+</div>
+

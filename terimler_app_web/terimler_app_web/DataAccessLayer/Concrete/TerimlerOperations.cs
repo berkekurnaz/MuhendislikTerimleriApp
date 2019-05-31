@@ -32,5 +32,30 @@ namespace terimler_app_web.DataAccessLayer.Concrete
             return list;
         }
 
+        public List<Terimler> GetSearchByName(string search, string bolum)
+        {
+            var list = new List<Terimler>();
+            using (var db = new LiteDatabase(@"myDatabase.db"))
+            {
+                var items = db.GetCollection<Terimler>(repoName);
+
+                if(bolum == "all")
+                {
+                    foreach (Terimler item in items.FindAll().Where(x => x.TerimAd.Contains(search)))
+                    {
+                        list.Add(item);
+                    }
+                }
+                else
+                {
+                    foreach (Terimler item in items.FindAll().Where(x => x.TerimAd.Contains(search) && x.TerimBolum == bolum)) 
+                    {
+                        list.Add(item);
+                    }
+                }
+            }
+            return list;
+        }
+
     }
 }
